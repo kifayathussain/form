@@ -1,0 +1,116 @@
+
+*/{
+	box-sizing: border-box;
+}
+#form-section{
+	height: 700px;
+	text-align: center;
+	padding-top: 20px;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+h2{
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-family: sans-serif;
+}
+.underline{
+	width: 100px;
+	height: 3px;
+	background-color: black;
+	text-align: center;
+	margin-left: 46.3%;
+	position: relative;
+	margin-top: 30px;
+}
+.underline::before{
+	content: " ";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+    top: -10px;
+    left: -15px;
+    /*box-shadow: inset 1px 2px 2px 2px black;*/
+	border-left: 3px solid black;
+	border-top: 3px solid black;
+	/*border: 3px ridge white;
+	background-color: white;
+	border:none;
+	border-bottom-right-radius: 100px;*/
+}.underline::after{
+	content: " ";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+       top: -8px;
+    left: 92px;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+/*	border: 3px ridge white;
+	background-color: white;
+	border:none;
+	border-top-left-radius: 100px;
+	box-shadow: inset -2px -2px 1px 1px black; */
+}
+.form-container{
+    width: 60%;
+    text-align: center;
+	background-image: url(../img/3.jpg);
+    margin-left: 16%;
+	color: white;
+	margin-top: 50px;
+	padding: 50px;
+}
+	.inputs{
+	width: 40%;
+	display: inline-block;
+	padding-right: 37px;
+	margin: 20px;
+	color: white;
+}
+@media(max-width: 1208px){
+
+	.inputs{
+	width: 39%;
+    display: inline-block;
+    padding-right: 38px;
+    margin: 10px;
+    color: white;
+}
+}
+	.inputs input{
+	width: 100%;
+	padding: 17px;
+	outline: none;
+	color: white;
+	background-color:transparent;
+	border:1px solid white;
+}
+.icon{
+	font-size: 50px;
+}
+.message{
+	 width: 94%;
+    color: white;
+	background-color: transparent;
+	border:1px solid white;
+	outline: none;
+
+}
+.submit{
+	 width: 95%;
+	 padding: 10px;
+	 margin-top: 10px;
+    color: white;
+	background-color: transparent;
+	border:1px solid white;
+	outline: none;
+	letter-spacing: 1px;
+
+}
+.submit:hover{
+	background-color: white;
+	color: black;
+
+}
